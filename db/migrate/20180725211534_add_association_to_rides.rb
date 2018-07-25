@@ -1,5 +1,6 @@
 class AddAssociationToRides < ActiveRecord::Migration
   def change
-    add_column :passenger_id 
+    add_column :rides, :passenger_id, :integer
+    add_column :rides, :passenger_id, :integer
   end
 end
